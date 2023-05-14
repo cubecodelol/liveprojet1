@@ -15,15 +15,15 @@
     gap: 35px;
 }
 
-.menu-items-wrapper li a{
-    color: #b8becd;
+.menu-items-wrapper li a {
     font-size: 16px;
+    color: #B8BECD;
     cursor: pointer;
     text-decoration: none;
 }
 
 .menu-items-wrapper .active a {
-    color: #fb8f1d;
+    color: #FB8F1D;
 }
 
 .btn {
@@ -34,12 +34,12 @@
 }
 
 .btn-outline {
-    border: 1px solid #fb8f1d;
-    color: #fb8f1d;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
 }
 
 .btn-fill {
-    background-color: #fb8f1d;
+    background-color: #FB8F1D;
     color: #fff;
 }
 
@@ -52,7 +52,10 @@
 }
 
 .hero {
-    padding: 70px 109px 0 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 105px 0 190px;
 }
 
 .title {
@@ -63,5 +66,29 @@
 }
 
 .subtitle {
-    
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    margin-top: 74px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.select {
+    border: 0.8px solid #AFB0B9;
+    border-radius: 8px;
+    padding: 10px 31px;
 }

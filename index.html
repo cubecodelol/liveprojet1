@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
@@ -14,78 +15,90 @@
         <div>
             <img src="./img/logo.png" alt="Logo">
         </div>
-
         <div class="menu-wrapper">
             <ul class="menu-items-wrapper">
                 <li class="active">
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
-
-                <li>Destinations</li>
-
+                <li>
+                    <a href="#app">Destinations</a>
+                </li>
                 <li>About</li>
-
                 <li>Partner</li>
             </ul>
-
             <div class="btn-wrapper">
                 <button class="btn btn-outline">Login</button>
-
-                <button class="btn btn-fill">Register</button>  
+                <button class="btn btn-fill">Register</button>
             </div>
         </div>
     </header>
-
-    <section class="hero">
-        <p>Explore and <br /> Travel</p>
-
-        <p>Holiday finder</p>
-
-        <span class="line"></span>
-
-        <div class="row">
-            <select name="" id="">
-                <option value="Azerbaijan">Azerbaijan</option>
-
-                <option value="Turkey">Turkey</option>
-            </select>
-
-            <select name="" id="">
-                <option value="football">Football</option>
-
-                <option value="basketball">Basketball</option>
-            </select>
+    <section class="hero" id="home">
+        <div class="left-wrapper">
+            <p class="title">Explore and <br /> Travel</p>
+            <p class="subtitle">Holiday finder</p>
+            <span class="line"></span>
+            <div class="row mt-48">
+                <select class="select" name="" id="">
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <select class="select" name="" id="">
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                </select>
+            </div>
+            <div class="row mt-35">
+                <select class="select" name="" id="">
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <select class="select" name="" id="">
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                </select>
+            </div>
+            <button class="btn btn-fill">Explore</button>
         </div>
-
-        <div class="row">
-            <select name="" id="">
-                <option value="Azerbaijan">Azerbaijan</option>
-
-                <option value="Turkey">Turkey</option>
-            </select>
-
-            <select name="" id="">
-                <option value="football">Football</option>
-
-                <option value="basketball">Basketball</option>
-            </select>
+        <div class="img-wrapper">
+            <img src="./img/hero-1.png" alt="Hero img">
         </div>
     </section>
 
-    <section class="explore">
-
+    <section class="hero" id="app">
+        <div class="left-wrapper">
+            <p class="title">App and <br /> Travel</p>
+            <p class="subtitle">Holiday finder</p>
+            <span class="line"></span>
+            <div class="row mt-48">
+                <select class="select" name="" id="">
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <select class="select" name="" id="">
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                </select>
+            </div>
+            <div class="row mt-35">
+                <select class="select" name="" id="">
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <select class="select" name="" id="">
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                </select>
+            </div>
+            <button class="btn btn-fill">Explore</button>
+        </div>
+        <div class="img-wrapper">
+            <img src="./img/hero-1.png" alt="Hero img">
+        </div>
     </section>
-
-    <section class="destination">
-
-    </section>
-
-    <section class="testimonial">
-
-    </section>
-    
-    <footer class="footer">
-
-    </footer>
+    <section class="explore"></section>
+    <section class="destination"></section>
+    <section class="testimonial"></section>
+    <footer class="footer"></footer>
 </body>
+
 </html>
