@@ -1,5 +1,5 @@
 body {
-    padding: 50px 100px;
+    padding: 0px 100px;
 }
 
 a {
@@ -14,6 +14,7 @@ a {
 }
 
 .header {
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +129,7 @@ a {
     margin-top: 250px;
 }
 
-.heading {
+.info .heading {
     font-family: 'Playfair Display', Serif;
     font-weight: 700;
     font-size: 36px;
@@ -164,6 +165,7 @@ a {
 .featured-destinations .text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .text .main-text {
@@ -215,4 +217,153 @@ a {
     font-size: 15px;
     color: #80918E;
     bottom: 5px;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.about-app .heading {
+    font-family: 'Playfair Display', Serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.about-app .main-text {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.about-app .download {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 25px 43px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    background: #FB8F1D;
+    margin-top: 39px;
+}
+
+.testimonials {
+    margin-top: 250px;
+}
+
+.testimonials .heading {
+    font-family: 'Playfair Display', Serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.testimonials .hero-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .review {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+}
+
+div .hero-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+div .founder-circle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 20px;
+}
+
+.trending-stories {
+
+}
+
+.trending-stories .upper-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.upper-text .main-text {
+    font-family: 'Playfair Display', Serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.upper-text .view-all {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
+
+.trending-stories .stories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.stories .story {
+    position: relative;
+}
+
+.story-img {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.story-text {
+    position: absolute;
+    top: 200px;
+    width: 261px;
+    height: 226px;
+    background: #FFFFFF;
+}
+
+.story-text .topic {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.story-text .content {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-top: 15px;
+}
+
+.story-text .read-more {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FB8F1D;
+    margin-top: 23px;
+    margin-bottom: 300px;
 }
