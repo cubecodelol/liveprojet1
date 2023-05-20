@@ -70,6 +70,7 @@ a {
     font-family: 'Playfair Display', Serif;
     font-weight: 700;
     font-size: 64px;
+    line-height: 80px;
     color: #202336;
 }
 
@@ -131,15 +132,18 @@ a {
     font-family: 'Playfair Display', Serif;
     font-weight: 700;
     font-size: 36px;
+    line-height: 50px;
 }
 
-.main-text {
+.info .main-text {
     font-family: 'Mulish',sans-serif;
     font-weight: 300;
     font-size: 17px;
+    line-height: 30px;
     color: #7D7987;
     margin-top: 20px;
 }
+
 .learn-more {
     display: inline-block;
     font-family: 'Inter', sans-serif;
@@ -151,4 +155,64 @@ a {
     border-radius: 8px;
     padding: 19px 37px;
     margin-top: 39px;
+}
+
+.featured-destinations {
+    margin-top: 300px;
+}
+
+.featured-destinations .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .main-text {
+    font-family: 'Playfair Display', Serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.text .view-all {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
+
+.featured-destinations .preview {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.preview .image {
+    position: relative;
+}
+
+.image .location {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    height: 56px;
+    background: #FFFFFF;
+    border-top-right-radius: 8px;
+}
+
+.location .place {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #042521;
+    margin-top: 11px;
+}
+
+.location .country {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #80918E;
+    bottom: 5px;
 }
